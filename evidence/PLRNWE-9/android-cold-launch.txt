@@ -1,0 +1,5 @@
+before_pid=none (force-stopped)
+after_pid=5578
+Native module autolinking
+pong:android
+metro_port_8081=not-listening

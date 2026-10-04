@@ -1,0 +1,19 @@
+{
+  "name": "plrnwe-feasibility-sprint",
+  "private": true,
+  "workspaces": [
+    "personal-library-react-native-widget-expansion",
+    "personal-library-react-native-widget-expansion/example"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@personal-library/react-native-widget-expansion",
+    "lint": "npm run lint --workspace=@personal-library/react-native-widget-expansion",
+    "test": "npm test --workspace=@personal-library/react-native-widget-expansion",
+    "doctor": "npm run doctor --workspace=plrnwe-example",
+    "prebuild:clean": "npm run prebuild:clean --workspace=plrnwe-example",
+    "android:build": "npm run android:build --workspace=plrnwe-example"
+  },
+  "devDependencies": {
+    "expo-doctor": "1.20.4"
+  }
+}

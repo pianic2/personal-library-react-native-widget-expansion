@@ -1,0 +1,9 @@
+node_modules/
+**/node_modules/
+.expo/
+**/.expo/
+**/build/
+personal-library-react-native-widget-expansion/example/android/
+personal-library-react-native-widget-expansion/example/ios/
+*.tgz
+*.log

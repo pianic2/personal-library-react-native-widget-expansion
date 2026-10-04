@@ -1,0 +1,44 @@
+
+> build
+> npm run build --workspace=@personal-library/react-native-widget-expansion
+
+
+> @personal-library/react-native-widget-expansion@0.1.0 build
+> node internal/module_scripts/build.js
+
+
+> lint
+> npm run lint --workspace=@personal-library/react-native-widget-expansion
+
+
+> @personal-library/react-native-widget-expansion@0.1.0 lint
+> eslint src/
+
+
+> test
+> npm test --workspace=@personal-library/react-native-widget-expansion
+
+
+> @personal-library/react-native-widget-expansion@0.1.0 test
+> node internal/module_scripts/test.js
+
+PASS src/__tests__/PersonalLibraryWidgetExpansionModule-test.ts
+  PersonalLibraryWidgetExpansion native module facade
+    ✓ exposes the asynchronous native ping contract (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.532 s, estimated 1 s
+Ran all test suites.
+
+> doctor
+> npm run doctor --workspace=plrnwe-example
+
+
+> plrnwe-example@1.0.0 doctor
+> expo install --check && npx expo-doctor
+
+Dependencies are up to date
+Running 21 checks on your project...
+21/21 checks passed. No issues detected!

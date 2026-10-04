@@ -1,0 +1,20 @@
+
+> prebuild:clean
+> npm run prebuild:clean --workspace=plrnwe-example
+
+
+> plrnwe-example@1.0.0 prebuild:clean
+> expo prebuild --clean
+
+- Clearing android, ios
+✔ Cleared android, ios code
+- Creating native directories (./ios and ./android)
+✔ Created native directories
+- Updating package.json
+✔ Updated package.json | no changes
+- Running prebuild
+» android: userInterfaceStyle: Install expo-system-ui in your project to enable this feature.
+- Running prebuild
+✔ Finished prebuild
+- Installing CocoaPods...
+✔ Skipped installing CocoaPods because operating system is not on macOS.

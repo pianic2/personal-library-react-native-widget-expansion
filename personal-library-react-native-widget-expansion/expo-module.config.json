@@ -1,0 +1,9 @@
+{
+  "platforms": ["android", "apple"],
+  "apple": {
+    "modules": ["PersonalLibraryWidgetExpansionModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.personallibrarywidgetexpansion.PersonalLibraryWidgetExpansionModule"]
+  }
+}
